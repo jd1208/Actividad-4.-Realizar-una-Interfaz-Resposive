@@ -1,0 +1,82 @@
+/* Archivo: styles.css */
+
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  }
+  
+  /* Estilos de la barra de navegación */
+  .navbar {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+  }
+  
+  .nav-link {
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: hsl(103, 100%, 50%);
+  }
+  
+  /* Estilos de la sección de contenido principal */
+  .jumbotron {
+    background-color: #f8f9fa;
+    padding: 3rem 2rem;
+  }
+  
+  .jumbotron h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .jumbotron p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+  }
+  
+  .btn-primary {
+    background-color: hsl(115, 100%, 50%);
+    border-color: #1cc733;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #37cf37;
+    border-color: hsl(130, 84%, 53%);
+  }
+  
+  /* Estilos de la sección de características */
+  .feature {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .feature i {
+    font-size: 3rem;
+    color: hsl(135, 100%, 50%);
+    margin-bottom: 1rem;
+  }
+  
+  .feature h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .feature p {
+    font-size: 1rem;
+  }
+  
+  /* Estilos del pie de página */
+  footer {
+    text-align: center;
+  }
+  
+  
